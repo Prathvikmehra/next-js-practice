@@ -8,11 +8,10 @@ export default function footer() {
                 <div className="flex flex-col justify-between gap-6 md:flex-row" >
                     <div> 
                         <Link href="/" className="flex items-center gap-3">
-                            <Store className="text-green-800">
-                                <span className="text-xl font-bold text-green-900" >
-                                    CampusMart
-                                </span>
-                            </Store>    
+                            <Store className="text-green-800" />
+                            <span className="text-xl font-bold text-green-900" >
+                                CampusMart
+                            </span>
                         </Link>
                         <p className="mt-3 max-w-sm text-sm text-gray-500" >
                             A marketplace where students buy, sell and

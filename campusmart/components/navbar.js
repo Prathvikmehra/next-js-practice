@@ -5,13 +5,11 @@ export default function Navbar() {
     return (
         <nav className="w-full border-b bg-white">
             <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-                <Link href="/" className="flex items-center gap-2">
-                    <Store className="h-6 w-6 text-green-900">
+                <Link href="/" className="flex items-center gap-2 text-black hover:text-green-900">
+                    <Store className="h-6 w-6 text-green-900" />
+                    <span>
                         CampusMart
-                    </Store>    
-                    <Link href="/" className="text-black hover:text-green-900 ">
-                        CampusMart
-                    </Link>
+                    </span>
                 </Link>
 
                 <div className="hidden items-center gap-5 md:flex">
