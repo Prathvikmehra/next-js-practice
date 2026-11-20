@@ -9,7 +9,7 @@ const categories = [{ name: "books", icon: BookOpen },
 
 export default function Home() {
   return (
-    <div className="mx-auto max-w-7xl px-5">
+    <div className="mx-auto max-w-7xl px-5 " >
       <section className="grid items-center gap-10 py-20 md:grid-cols-2 md:py-28" >
         <div>
         <span className="rounded-full bg-green-100  px-4 py-2 text-sm font-medium text-green-800 " >
